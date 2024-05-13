@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;600;700;800 & display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: linear-gradient(rgba(83, 3, 3, 0.7), rgba(83, 3, 3, 0.7)),
+    url(/Images/Logo\ AF\ STORE.jpg);
+  background-position: center botton;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 70 vh;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #fffdfc;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.menu .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+.menu .navbar ul li a {
+  font-size: 18px;
+  padding: 20px;
+  color: #fffdfc;
+  display: block;
+  font-weight: 600;
+}
+
+
+.menu .navbar ul li a:hover {
+  color: #e98e8e;
+}
+
+#menu {
+  display: none;
+}
+
+.menu-icono {
+  width: 25px;
+}
+
+.menu label {
+  cursor: pointer;
+  display: none;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header-content h1 {
+  font-size: 75px;
+  line-height: 180px;
+  color: #f9fafc;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.header-content p {
+  font-size: 16px;
+  color: #c5c5c5;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+.btn-1 {
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: #e98e8e;
+  color: #0c0101;
+  text-transform: uppercase;
+}
+
+.btn-1:hover {
+  background-color: #f36565;
+}
+
+.Funko {
+  padding: 100px 0;
+  background-color: #f9fafc;
+  position: relative;
+}
+
+.Funko-content {
+  text-align: center;
+}
+
+.Funko-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #e71919;
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 15px;
+}
+
+.txt-p {
+  font-size: 16px;
+  color: #0c0101;
+  padding: 0 250px;
+  margin-bottom: 35px;
+}
+
+.Funko-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.Funko-1 {
+  padding: 0 25px;
+}
+
+.Funko-1 img {
+  width: 150px;
+}
+
+.Funko-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.Funko-1 h3 {
+  color: #323337;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.Servicios {
+  background-image: linear-gradient(rgba(83, 3, 3, 0.7), rgba(83, 3, 3, 0.7)),
+    url(/Images/Servicio\ al\ cliente.jpg);
+  background-position: center center;
+  background-repeat: no-repear;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+}
+
+.Servicios-content {
+  text-align: center;
+}
+
+.Servicios-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #f9fafc;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.Servicios-content p {
+  font-size: 55 px;
+  line-height: 70px;
+  color: #f9fafc;
+  margin-bottom: 50px;
+  padding: 0 100px;
+}
+
+.Servicios-group {
+  display: inline-block;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.Servicios-1 {
+  padding: 0 100px;
+}
+
+.Servicios-1 img {
+  width: 500px;
+  margin-bottom: 15px;
+}
+
+.Servicios-1 h3 {
+  color: #eaccb3;
+  font-size: 18px;
+}
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    background: white;
+    border-radius: 10px;
+}
+
+.formulario form {
+    padding: 50px;
+    width: 500px;
+     text-align: center;
+    box-shadow: 0 0 200px #f36565;
+}
+
+form h2 {
+    font-size: 50px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container >i {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #e98e8e;
+    color: #f9fafc;
+    position: absolute;
+    font-size: 10px;
+    top: 4px;
+    left: 10px;
+}
+
+.input-container > input textarea {
+    padding: 17px 15px 17px 65px;
+    width: 100px;
+    margin-bottom: 25px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 2px solid red;
+    font-size:  16px;
+    outline: none;
+    color: black;
+}
+
+textarea {
+    font-family: 'Poppins', sans-serif;
+    height: 300px;
+}
+
+::placeholder {
+    color: #c5c5c5;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #e71919;
+    padding: 17px 30px;
+    width: 100px;
+    border: 0;
+    box-shadow: 0 0 20px #e98e8e;
+    border-radius: 25px;
+    color:#c5c5c5;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.general {
+  display: flex;
+}
+
+.general-1 {
+  width: 50%;
+  padding: 100px 250px 100px 100px;
+  background-color: #f3b8b4;
+}
+
+.general-2 {
+  background-image: url(/Images/Clientes.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+.general-3 {
+  background-image: url(/Images/Clientes.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+}
+
+h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #e71919;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px;
+  color: #414247;
+  margin: 25px 0 45px 0;
+}
+
+.blog-container {
+  padding: 100;
+  text-align: center;
+}
+
+.blog-content {
+  display: flex;
+  justify-content: first baseline;
+}
+
+.blog-1 {
+  padding: 15px 55px;
+}
+
+.blog-1 img {
+  width: 250px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.blog-1 h3 {
+  font-size: 25px;
+  color: #e71919;
+}
+
+.footer {
+  padding: 100px 0;
+  background-color: #000000;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link h3 {
+  font-size: 18px;
+  color: #f9fafc;
+  margin-bottom: 15px;
+}
+
+.link a {
+  font-size: 16px;
+  color: #c5c5c5;
+  display: block;
+  margin-bottom: 15px;
+}
+
+@media(max-widht:991px) {
+  .menu {
+    padding: 30px;
+  }
+  .menu label {
+    display: initial;
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #323337;
+    display: none;
+  }
+
+  .menu .navbar ul li {
+    width: 100%;
+  }
+
+  .header {
+    min-height: 0vh;
+  }
+
+  .header-content {
+    padding: 100opx 30px;
+  }
+
+  .header-content p {
+    padding: 0;
+  }
+
+  .header-txt {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .header-img {
+    width: 100px;
+  }
+
+  .header-img img {
+    width: 100%;
+  }
+
+  .formulario {
+    padding: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  form {
+    width: 100%;
+  }
+}

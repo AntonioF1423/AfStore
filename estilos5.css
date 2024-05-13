@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;600;700;800 & display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .Angus_Young
+  {
+    background-image: linear-gradient(rgba(83, 3, 3, 0.7), rgba(83, 3, 3, 0.7)),
+    url(./Images/Logo_AF_STORE.jpg);
+    background-position: center botton;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70 vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .funko {
+    max-width: 1600px;
+    margin: 0 auto;
+  }  
+  
+  .Funko{
+    text-align: center;
+  }
+
+  .Funko h2 {
+    font-size: 55px;
+  line-height: 70px;
+  color: #f9fafc;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  }
+
+  .Funko p {
+    font-size: 55 px;
+    line-height: 70px;
+    color: #f9fafc;
+    margin-bottom: 50px;
+    padding: 0 100px;
+  }
+
+  .Funko-group h3 {
+    color: #eaccb3;
+    font-size: 18px;
+
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: 35px;
+    position:right;
+    right: 0%;
+    left: 30%;
+    background-color: red;
+    padding: 10px 45px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .btn:hover {
+    background-color: #eaccb3(67,0,130);
+  }

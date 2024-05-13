@@ -1,0 +1,97 @@
+/*pueba*/
+@import url("https://fonts.googleapis.com/css2? family= Poppins:wght@400;500;600;700;800 & display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .header {
+    background-image: linear-gradient(rgba(212, 27, 27, 0.7), rgba(243, 239, 239, 0.7)),
+    /*url(./Imagenes/Logo_AF_STORE.jpg);*/
+    url(./Images/Hisotiera.jpg);
+    background-position: center botton;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70 vh;
+    display: flex;
+    align-items: center;
+  }
+
+  .header h1{
+    font-size: 50px;
+    text-align: center;
+    color: #faf4f4;
+  }
+
+  .header p{
+    font-size: 30px;
+    text-align: center;
+    color: #080808;
+  }
+
+
+  .blog-container {
+    background-image: linear-gradient(rgba(83, 3, 3, 0.7), rgba(83, 3, 3, 0.7)),
+      url(./Images/Hisotiera.jpg);
+    background-position: center center;
+    background-repeat:no;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+  }
+   .blog-container {
+    padding: 100;
+    text-align: center;
+  }
+
+  .blog-container h2 {
+    font-size: 25px;
+    color: #28ce5a;
+  }
+
+  .blog-container p {
+    font-size: 25px;
+    color: #2ee0d2;
+  }
+  
+  .blog-content {
+    display: flex;
+    justify-content: first baseline;
+  }
+  
+  .blog-1 {
+    padding: 15px 55px;
+  }
+  
+  .blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .blog-1 h3 {
+    font-size: 25px;
+    color: #28ce5a;
+  }
+
+  .blog-1 P {
+    font-size: 25px;
+    color: #f0e7e7;
+  }
+
+  .btn-1 {
+    display: inline-block;
+    margin-top: 35px;
+    position:right;
+    right: 0%;
+    left: 30%;
+    background-color: red;
+    padding: 10px 45px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .btn-1:hover {
+    background-color: #eaccb3(67,0,130);
+  }
