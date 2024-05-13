@@ -19,7 +19,7 @@ body {
 
 .header {
 background-image: linear-gradient(rgba(83, 3, 3, 0.7), rgba(83, 3, 3, 0.7)),
-  url(./Images/Logo_AF_STORE.jpg);
+  url(..//Images/Logo\ AF\ STORE.jpg);
 background-position: center center;
 background-repeat: no-repear;
 background-size: cover;
@@ -117,7 +117,7 @@ padding: 50px 0;
 }
 
 .Funko-content h2 {
-  font-size: 55px;
+  font-size: 40px;
   line-height: 70px;
   color: #e71919;
   text-transform: uppercase;
@@ -161,7 +161,7 @@ padding: 50px 0;
 
 .Servicios {
   background-image: linear-gradient(rgba(83, 3, 3, 0.7), rgba(83, 3, 3, 0.7)),
-    url(./Images/Servicio\ al\ cliente.jpg);
+    url(../Images/Servicio\ al\ cliente.jpg);
   background-position: center center;
   background-repeat: no-repear;
   background-size: cover;

@@ -7,8 +7,7 @@ body {
   
   .header {
     background-image: linear-gradient(rgba(212, 27, 27, 0.7), rgba(243, 239, 239, 0.7)),
-    /*url(./Imagenes/Logo_AF_STORE.jpg);*/
-    url(./Images/Hisotiera.jpg);
+    url(..//Images/Logo\ AF\ STORE.jpg);
     background-position: center botton;
     background-repeat: no-repeat;
     background-size: cover;
@@ -32,7 +31,7 @@ body {
 
   .blog-container {
     background-image: linear-gradient(rgba(83, 3, 3, 0.7), rgba(83, 3, 3, 0.7)),
-      url(./Images/Hisotiera.jpg);
+      url(..//Images/Historieta.jpg);
     background-position: center center;
     background-repeat:no;
     background-size: cover;

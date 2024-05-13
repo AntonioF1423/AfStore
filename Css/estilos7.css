@@ -13,7 +13,7 @@
   
   .header {
     background-image: linear-gradient(rgba(83, 3, 3, 0.7), rgba(83, 3, 3, 0.7)),
-      url(/Contenido/Imagenes/Logo\ AF\ STORE.jpg);
+      url(..//Images/Logo\ AF\ STORE.jpg);
     background-position: center botton;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,7 +40,7 @@
 
 .blog-container{
     background-image: linear-gradient(rgba(204, 196, 196, 0.7), rgba(204, 196, 196, 0.7)),
-    url(/Contenido/Imagenes/Servicio\ al\ cliente.jpg);
+    url(..//Images/Servicio\ al\ cliente.jpg);
   background-position: center center;
   background-repeat: no-repear;
   background-size: cover;

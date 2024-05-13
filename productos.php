@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
 
     <title>Funko Pop Store</title>
-    <link rel="stylesheet" href="http://localhost/tiendaonline/estilos6.css"/>
+    <link rel="stylesheet" href="http://localhost/tiendaonline/Css/estilos6.css"/>
     
   </head>
   <body>

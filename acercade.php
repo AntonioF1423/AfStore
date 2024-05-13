@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Acerca de</title>
-    <link rel="stylesheet" href="http://localhost/tiendaonline/estilos4.css" />
+    <link rel="stylesheet" href="http://localhost/tiendaonline/Css/estilos4.css" />
   </head>
     <body>
     <header class="header">
