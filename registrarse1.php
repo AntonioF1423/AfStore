@@ -38,7 +38,7 @@ if (empty($usuario)) {
     }else {
         $Clave = md5($Clave);
 
-        $sql = "SELECT * FROM usuarios WHERE NombreUsuario = '$usuario'";
+        $sql = "SELECT * FROM registrarse WHERE NombreUsuario = '$usuario'";
         $query = $conexion->query($sql);
 
         if (mysqli_num_rows($query) > 0){
@@ -46,7 +46,7 @@ if (empty($usuario)) {
         exit();
 
         }else {
-            $sql2 = "INSERT INTO usuarios(NombreCompleto, NombreUsuario, Clave) VALUES('$NombreCompleto','$usuario','$Clave')";
+            $sql2 = "INSERT INTO registrarse(NombreCompleto, NombreUsuario, Clave) VALUES('$NombreCompleto','$usuario','$Clave')";
             $query2 = $conexion->query($sql2);
 
             if($query2) {
