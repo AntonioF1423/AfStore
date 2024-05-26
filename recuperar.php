@@ -13,6 +13,11 @@
         <form method="post">
             <div class="username">
                 <input type="text" required>
+                <label> Ingrese su usuario</label>
+            </div>
+        <form method="post">
+            <div class="username">
+                <input type="text" required>
                 <label> Ingrese su contraseña</label>
             </div>
             <div class="contrasena">
