@@ -45,7 +45,7 @@
 
      <input type="submit" class="button" value="Registrarse" > 
 
-     <a href="index.php" class="boton_ingresar">
+     <a href="login/index.php" class="boton_ingresar">
         Volver al inicio
      </a>
       

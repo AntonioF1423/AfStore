@@ -30,7 +30,7 @@
           <li><a href="servicios.php">Servicios</a></li>
           <li><a href="acercade.php">Acercade</a></li>
           <li><a href="registro.php">Registro</a></li>
-          <li><a href="index.php">Cerrar Seción</a></li>
+          <li><a href="login/index.php">Cerrar Seción</a></li>
         </ul>
       </nav>
     </div>
